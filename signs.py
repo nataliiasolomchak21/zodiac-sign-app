@@ -57,5 +57,5 @@ def get_zodiac_sign(birth_day, birth_month):
     ):
         sign = "Sagittarius"
 
-    print("Your zodiac sign is " + sign)
-    print(f"You are: {' '.join(descriptions[sign])}")
+    print(Fore.BLUE + "Your zodiac sign is " + sign)
+    print(Fore.BLUE + f"You are: {' '.join(descriptions[sign])}")

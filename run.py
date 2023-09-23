@@ -93,3 +93,10 @@ def show_compatability(user_sign, match_sign):
     else:
         print(Fore.BLUE + f"{match_sign} is not compatible with {user_sign}.")
 
+
+def show_prediction(sign_predictions):
+    """
+    Prints horoscope predictions for the given zodiac sign.
+    """
+    for prediction in horoscope_predictions[sign_predictions]:
+        print(Fore.BLUE + "- " + prediction)

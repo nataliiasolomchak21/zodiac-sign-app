@@ -12,8 +12,4 @@ SCOPED_CREDS = CREDS.with_scopes(SCOPE)
 GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
 SHEET = GSPREAD_CLIENT.open('zodiac_sign_app')
 
-zodiac = SHEET.worksheet('zodiac')
 
-data = zodiac.get_all_values()
-
-print(data)

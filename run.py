@@ -1,6 +1,7 @@
 import gspread
 from google.oauth2.service_account import Credentials
 import time
+from pyfiglet import figlet_format
 from signs import get_zodiac_sign
 from descriptions import descriptions
 from predictions import horoscope_predictions
@@ -98,31 +99,17 @@ while True:
     except ValueError as e:
         print(e)
 
-print(Fore.BLUE + "Welcome to the Zodiac Sign App, " + username + "!")
+print(Fore.BLUE + "Hi " + username + "!" + " Welcome to the")
 
 
-def style(text, delay=0.008):
-    """
-    Prints out the given text with a delay between each character.
-    """
-    for char in text:
-        print(char, end="", flush=True)
-        time.sleep(delay)
-    print()
+def style(text):
+    with open("art.txt") as f:
+        art = f.read()
+    formatted = art + "\n" + figlet_format(text)
+    print(formatted)
 
 
-style(
-    """                                                       
-                               88 88                        
-                               88 ""                        
-                               88                           
-888888888  ,adPPYba,   ,adPPYb,88 88 ,adPPYYba,  ,adPPYba
-     a8P" a8"     "8a a8"    `Y88 88 ""     `Y8 a8"     ""
-  ,d8P'   8b       d8 8b       88 88 ,adPPPPP88 8b         
-,d8"      "8a,   ,a8" "8a,   ,d88 88 88,    ,88 "8a,   ,aa  
-888888888  `"YbbdP"'   `"8bbdP"Y8 88 `"8bbdP"Y8  `"Ybbd8"'  
-"""
-)
+style("sign app")
 
 
 # Main program loop

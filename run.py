@@ -101,3 +101,49 @@ def show_prediction(sign_predictions):
     """
     for prediction in horoscope_predictions[sign_predictions]:
         print(Fore.BLUE + "- " + prediction)
+
+
+# Main program loop
+repeat = True
+while repeat:
+    # Print menu
+    print(Fore.YELLOW + "1. Choose your zodiac sign")
+    print("2. Choose a sign for compatibility")
+    print("3. See predictions for your zodiac sign")
+    print("4. See your lucky number for today")
+    print("5. Exit program")
+
+    # Get user choice
+    choice = input(Fore.GREEN + "Enter your choice: ")
+    if choice == "1":
+        while True:
+            try:
+                birth_day = int(input("What day were you born? (1-31): "))
+
+            except ValueError:
+                print("Invalid input, please enter a number")
+
+            else:
+                if 1 <= birth_day <= 31:
+                    break
+
+                else:
+                    print("Day must be between 1-31")
+
+        while True:
+            birth_month = input(Fore.GREEN +
+                                "What month were you born? (1-12): ")
+
+            if birth_month.isdigit():
+                birth_month = int(birth_month)
+
+                if 1 <= birth_month <= 12:
+                    break
+
+                else:
+                    print(Fore.RED + "Month must be between 1 and 12")
+
+            else:
+                print(Fore.RED + "Invalid input. Please enter a number.")
+
+        get_zodiac_sign(birth_day, birth_month)

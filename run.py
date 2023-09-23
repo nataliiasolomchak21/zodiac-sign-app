@@ -220,3 +220,22 @@ while repeat:
                 print(e)
 
         show_prediction(sign_predictions)
+    
+    elif choice == "4":
+        valid_signs = zodiac_compatibility.keys()
+
+        while True:
+            try:
+                user_sign = input(Fore.GREEN + "What is your zodiac sign? ")
+
+                if user_sign not in valid_signs:
+                    raise ValueError(
+                        Fore.RED + "Invalid zodiac sign. Please try again."
+                    )
+
+                break
+
+            except ValueError as e:
+                print(e)
+
+        give_lucky_number(user_sign)

@@ -1,6 +1,9 @@
 import gspread
 from google.oauth2.service_account import Credentials
 import time
+from descriptions import descriptions
+from predictions import horoscope_predictions
+from compatibility import zodiac_compatibility
 
 
 SCOPE = [
@@ -64,5 +67,6 @@ style(
      a8P" a8"     "8a a8"    `Y88 88 ""     `Y8 a8"     ""  
   ,d8P'   8b       d8 8b       88 88 ,adPPPPP88 8b          
 ,d8"      "8a,   ,a8" "8a,   ,d88 88 88,    ,88 "8a,   ,aa  
-888888888  `"YbbdP"'   `"8bbdP"Y8 88 `"8bbdP"Y8  `"Ybbd8"'  """
+888888888  `"YbbdP"'   `"8bbdP"Y8 88 `"8bbdP"Y8  `"Ybbd8"'  
+"""
 )

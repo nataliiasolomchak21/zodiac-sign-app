@@ -220,7 +220,7 @@ while repeat:
                 print(e)
 
         show_prediction(sign_predictions)
-    
+
     elif choice == "4":
         valid_signs = zodiac_compatibility.keys()
 
@@ -239,3 +239,8 @@ while repeat:
                 print(e)
 
         give_lucky_number(user_sign)
+
+    elif choice == "5":
+        repeat = False
+        print(Fore.BLUE + ("Thank you for participating, " + username +
+                           ". Goodbye ;)"))

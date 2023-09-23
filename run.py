@@ -5,6 +5,7 @@ from descriptions import descriptions
 from predictions import horoscope_predictions
 from compatibility import zodiac_compatibility
 from colorama import Fore
+import random
 
 
 SCOPE = [
@@ -64,8 +65,8 @@ style(
                                88 88                        
                                88 ""                        
                                88                           
-888888888  ,adPPYba,   ,adPPYb,88 88 ,adPPYYba,  ,adPPYba,  
-     a8P" a8"     "8a a8"    `Y88 88 ""     `Y8 a8"     ""  
+888888888  ,adPPYba,   ,adPPYb,88 88 ,adPPYYba,  ,adPPYba
+     a8P" a8"     "8a a8"    `Y88 88 ""     `Y8 a8"     ""
   ,d8P'   8b       d8 8b       88 88 ,adPPPPP88 8b          
 ,d8"      "8a,   ,a8" "8a,   ,d88 88 88,    ,88 "8a,   ,aa  
 888888888  `"YbbdP"'   `"8bbdP"Y8 88 `"8bbdP"Y8  `"Ybbd8"'  
@@ -73,4 +74,22 @@ style(
 )
 
 
+def show_compatability(user_sign, match_sign):
+    """
+    Prints compatibility between two zodiac signs.
+    Checks if the match sign is in the first 3 or last compatible signs.
+    Prints out a compatibility percentage and statement.
+    """
+    user_compat = zodiac_compatibility[user_sign]
+
+    if match_sign in user_compat[:3]:
+        compatability_rate_one = random.randint(70, 100)
+        print(Fore.BLUE + f"{user_sign} is very compatible with {match_sign}!")
+        print(Fore.BLUE + f"Your compatibility rate:{compatability_rate_one}%")
+    elif match_sign in user_compat[3:]:
+        compatability_rate_two = random.randint(50, 69)
+        print(Fore.BLUE + f"{user_sign} is compatible with {match_sign}!")
+        print(Fore.BLUE + f"Your compatibility rate:{compatability_rate_two}%")
+    else:
+        print(Fore.BLUE + f"{match_sign} is not compatible with {user_sign}.")
 

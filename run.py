@@ -187,3 +187,23 @@ while repeat:
                 print(e)
 
         show_compatability(user_sign, match_sign)
+
+    elif choice == "3":
+        valid_signs = zodiac_compatibility.keys()
+
+        while True:
+            try:
+                sign_predictions = input(Fore.GREEN +
+                                         ("Enter sign for prediction: "))
+
+                if sign_predictions not in valid_signs:
+                    raise ValueError(
+                        Fore.RED + "Invalid zodiac sign. Please try again."
+                    )
+
+                break
+
+            except ValueError as e:
+                print(e)
+
+        show_prediction(sign_predictions)

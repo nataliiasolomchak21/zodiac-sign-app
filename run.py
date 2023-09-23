@@ -103,6 +103,19 @@ def show_prediction(sign_predictions):
         print(Fore.BLUE + "- " + prediction)
 
 
+def give_lucky_number(sign):
+    """
+    Generates and prints a random lucky number for the given zodiac sign today.
+    """
+    lucky_number = random.randint(1, 25)
+
+    today = date.today()
+
+    result = f"Today is {today}. {user_sign}'s lucky number is {lucky_number}"
+
+    print(Fore.BLUE + result)
+
+
 # Main program loop
 repeat = True
 while repeat:

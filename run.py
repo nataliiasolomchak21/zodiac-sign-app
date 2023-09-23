@@ -147,3 +147,43 @@ while repeat:
                 print(Fore.RED + "Invalid input. Please enter a number.")
 
         get_zodiac_sign(birth_day, birth_month)
+
+    elif choice == "2":
+        print(Fore.WHITE + ("Compatibility is based on the elements(fire, "
+                            "earth, air, water)."))
+        print("Zodiac signs should start with a capital letter.")
+
+        valid_signs = zodiac_compatibility.keys()
+
+        while True:
+            try:
+                user_sign = input(Fore.GREEN + "What is your zodiac sign? ")
+
+                if user_sign not in valid_signs:
+                    raise ValueError(
+                        Fore.RED + "Invalid zodiac sign. Please try again."
+                    )
+
+                break
+
+            except ValueError as e:
+                print(e)
+
+        while True:
+            try:
+                match_sign = input(
+                    Fore.GREEN +
+                    "What sign do you want to check compatibility with? "
+                )
+
+                if match_sign not in valid_signs:
+                    raise ValueError(
+                        Fore.RED + "Invalid zodiac sign. Please try again."
+                    )
+
+                break
+
+            except ValueError as e:
+                print(e)
+
+        show_compatability(user_sign, match_sign)

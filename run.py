@@ -13,7 +13,7 @@ SCOPED_CREDS = CREDS.with_scopes(SCOPE)
 GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
 SHEET = GSPREAD_CLIENT.open('zodiac_sign_app')
 
-# Main program loop
+# Start the program
 print("Your name should start with a capital letter, contain only letters.")
 print("No numbers, symbols or spaces, and be no more than 20 characters long.")
 

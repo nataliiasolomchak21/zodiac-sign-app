@@ -1,10 +1,11 @@
 from descriptions import descriptions
+from colorama import Fore
 
 
 def get_zodiac_sign(birth_day, birth_month):
     """
     Determines and prints the zodiac sign based on a given birth day and month.
-    Checks the birth day and month against the date ranges for each zodiac sign.
+    Checks the birth day and month against the date ranges for each sign.
     Prints the sign, symbol, and traits if a match is found.
     """
     if (birth_month == 12 and birth_day >= 22) or (

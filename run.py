@@ -4,6 +4,7 @@ import time
 from descriptions import descriptions
 from predictions import horoscope_predictions
 from compatibility import zodiac_compatibility
+from colorama import Fore
 
 
 SCOPE = [
@@ -70,3 +71,6 @@ style(
 888888888  `"YbbdP"'   `"8bbdP"Y8 88 `"8bbdP"Y8  `"Ybbd8"'  
 """
 )
+
+
+

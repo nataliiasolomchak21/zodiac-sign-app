@@ -1,12 +1,13 @@
 import gspread
 from google.oauth2.service_account import Credentials
 import time
+from signs import get_zodiac_sign
 from descriptions import descriptions
 from predictions import horoscope_predictions
 from compatibility import zodiac_compatibility
 from colorama import Fore
 import random
-
+from datetime import date
 
 SCOPE = [
     "https://www.googleapis.com/auth/spreadsheets",

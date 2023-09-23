@@ -244,3 +244,6 @@ while repeat:
         repeat = False
         print(Fore.BLUE + ("Thank you for participating, " + username +
                            ". Goodbye ;)"))
+
+    else:
+        print(Fore.RED + "Invalid choice. Please try again")

@@ -28,14 +28,14 @@ def show_compatibility(user_sign, match_sign):
     Checks if the match sign is in the first 3 or last compatible signs.
     Prints out a compatibility percentage and statement.
     """
-    user_compat = zodiac_compatibility[user_sign]
+    user_compatibility = zodiac_compatibility[user_sign]
 
-    if match_sign in user_compat[:3]:
+    if match_sign in user_compatibility[:3]:
         compatibility_rate_one = random.randint(70, 100)
         print(Fore.BLUE + f"{user_sign} is very compatible with {match_sign}!")
         print(Fore.BLUE +
               (f"Your compatibility rate is {compatibility_rate_one}%"))
-    elif match_sign in user_compat[3:]:
+    elif match_sign in user_compatibility[3:]:
         compatibility_rate_two = random.randint(50, 69)
         print(Fore.BLUE +
               (f"{user_sign} is slightly compatible with {match_sign}!"))

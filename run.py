@@ -1,13 +1,13 @@
 import gspread
 from google.oauth2.service_account import Credentials
 import time
+import random
 from pyfiglet import figlet_format
 from signs import get_zodiac_sign
 from descriptions import descriptions
 from predictions import horoscope_predictions
 from compatibility import zodiac_compatibility
 from colorama import Fore
-import random
 from datetime import date
 
 SCOPE = [
@@ -22,7 +22,7 @@ GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
 SHEET = GSPREAD_CLIENT.open('zodiac_sign_app')
 
 
-def show_compatability(user_sign, match_sign):
+def show_compatibility(user_sign, match_sign):
     """
     Prints compatibility between two zodiac signs.
     Checks if the match sign is in the first 3 or last compatible signs.
@@ -51,6 +51,15 @@ def show_prediction(sign_predictions):
     """
     for prediction in horoscope_predictions[sign_predictions]:
         print(Fore.BLUE + "- " + prediction)
+
+
+def update_zodiac_worksheet(data):
+    """
+    Updata zodiac worksheet, add new row with the data provided
+    """
+    zodiac_worksheet = SHEET.worksheet("zodiac")
+    row = [username, sign_predictions]
+    zodiac_worksheet.append_row(row)
 
 
 def give_lucky_number(sign):
@@ -206,6 +215,8 @@ while repeat:
             except ValueError as e:
                 print(e)
 
+        show_compatibility(user_sign, match_sign)
+
     elif choice == "3":
         valid_signs = zodiac_compatibility.keys()
 
@@ -225,6 +236,8 @@ while repeat:
                 print(e)
 
         show_prediction(sign_predictions)
+        data = username, show_prediction
+        update_zodiac_worksheet(data)
 
     elif choice == "4":
         valid_signs = zodiac_compatibility.keys()

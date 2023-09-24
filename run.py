@@ -102,8 +102,10 @@ while True:
 print(Fore.BLUE + "Hi " + username + "!" + " Welcome to the")
 
 
-# ASCII art styling
 def style(text="", delay=0.008, art=True):
+    """
+    Styles ASCII art to appear character by character
+    """
     if art:
         with open("art.txt") as f:
             art = f.read()

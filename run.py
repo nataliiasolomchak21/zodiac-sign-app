@@ -102,14 +102,22 @@ while True:
 print(Fore.BLUE + "Hi " + username + "!" + " Welcome to the")
 
 
-def style(text):
-    with open("art.txt") as f:
-        art = f.read()
-    formatted = art + "\n" + figlet_format(text)
-    print(formatted)
+# ASCII art styling
+def style(text="", delay=0.008, art=True):
+    if art:
+        with open("art.txt") as f:
+            art = f.read()
+        formatted = art
+    else:
+        formatted = text
+
+    for char in formatted:
+        print(char, end="", flush=True)
+        time.sleep(delay)
+    print()
 
 
-style("sign app")
+style(art=True)
 
 
 # Main program loop

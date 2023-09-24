@@ -31,16 +31,16 @@ def show_compatability(user_sign, match_sign):
     user_compat = zodiac_compatibility[user_sign]
 
     if match_sign in user_compat[:3]:
-        compatability_rate_one = random.randint(70, 100)
+        compatibility_rate_one = random.randint(70, 100)
         print(Fore.BLUE + f"{user_sign} is very compatible with {match_sign}!")
         print(Fore.BLUE +
-              (f"Your compatibility rate is {compatability_rate_one}%"))
+              (f"Your compatibility rate is {compatibility_rate_one}%"))
     elif match_sign in user_compat[3:]:
-        compatability_rate_two = random.randint(50, 69)
+        compatibility_rate_two = random.randint(50, 69)
         print(Fore.BLUE +
               (f"{user_sign} is slightly compatible with {match_sign}!"))
         print(Fore.BLUE +
-              f"Your compatibility rate is {compatability_rate_two}%")
+              f"Your compatibility rate is {compatibility_rate_two}%")
     else:
         print(Fore.BLUE + f"{match_sign} is not compatible with {user_sign}.")
 
@@ -205,8 +205,6 @@ while repeat:
 
             except ValueError as e:
                 print(e)
-
-        show_compatability(user_sign, match_sign)
 
     elif choice == "3":
         valid_signs = zodiac_compatibility.keys()

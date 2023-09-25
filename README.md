@@ -42,4 +42,46 @@ This flowchart illustrates the overall program logic and user experience of navi
 ### Colours
 * The colours for the project were added using [Python Colorama](https://pypi.org/project/colorama/)
 
+#### Consistency
 
+* Instructions/Explanation
+
+Instructions or explanation for the user have white colour throughout the program. 
+
+Example: Instructions before username input
+
+![Instructions](README-images/instructions-explanation-colorama.png)
+
+* Input
+
+User input have green colour throughout the program. 
+
+Example: Enter your name input
+
+![User Input](README-images/input-colorama.png)
+
+* Output
+
+Every feature output have blue colour throughout the program. 
+
+Example: Welcome message
+
+![Output](README-images/output-colorama.png)
+
+* Menu
+
+Menu has yellow colour throughout the program. 
+
+Example: Menu with 5 options
+
+![Menu](README-images/menu-colorama.png)
+
+* Errors
+
+Errors have red colour throughout the program. 
+
+Example: Invalid menu option choice
+
+![Errors](README-images/error-colorama.png)
+
+The colours compliment each other well and promote a positive emotional response in users.

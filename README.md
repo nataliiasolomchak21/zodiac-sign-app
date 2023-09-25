@@ -8,6 +8,17 @@ View the live project [here](https://zodiac-sign-app-7fd49a0a9ccc.herokuapp.com/
 
 ## User Experience
 
+### Target Audience
+
+* People interested in astrology and zodiac signs - Those who follow horoscopes and believe planetary positions at birth impact personality.
+* Casual astrology fans - Those who may not fully believe in astrology but think zodiac signs are fun and enjoy reading horoscopes.
+* Teenagers and young adults - Astrology and zodiac signs are popular among young demographics. This type of app could appeal to them.
+
+### Key Project Goals
+
+* Provide accurate zodiac sign information - Ensure astrological data and predictions meet quality criteria.
+* Develop an engaging, interactive experience - Allow users to explore and learn about signs through a conversational interface.
+
 ### User Stories
 
 * As a program creator, I want to:

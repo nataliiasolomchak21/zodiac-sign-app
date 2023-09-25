@@ -38,3 +38,8 @@ View the live project [here](https://zodiac-sign-app-7fd49a0a9ccc.herokuapp.com/
 ![Flowchart](README-images/flowchart.png)
 
 This flowchart illustrates the overall program logic and user experience of navigating through the various features. It demonstrates how the user can easily access each feature from the main menu, which reappears after completing each one.
+
+### Colours
+* The colours for the project were added using [Python Colorama](https://pypi.org/project/colorama/)
+
+

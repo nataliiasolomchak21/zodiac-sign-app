@@ -31,3 +31,10 @@ View the live project [here](https://zodiac-sign-app-7fd49a0a9ccc.herokuapp.com/
 1. Understand the purpose of the program.
 2. Get feedback at all times.
 3. Navigate easily through the program.
+
+## Design Stage
+
+### Flowchart
+![Flowchart](README-images/flowchart.png)
+
+This flowchart illustrates the overall program logic and user experience of navigating through the various features. It demonstrates how the user can easily access each feature from the main menu, which reappears after completing each one.

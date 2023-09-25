@@ -6,4 +6,17 @@ View the live project [here](https://zodiac-sign-app-7fd49a0a9ccc.herokuapp.com/
 
 ![Screenshot of the website on mobile, tablet, laptop and desktop from Am I Resonsive website.](README-images/am-i-responsive.png)
 
+## User Experience
 
+### User Stories
+
+* As a program creator, I want to:
+
+1. Build an interactive app for the users to learn more about their zodiac signs.
+2. Make the app easy to navigate.
+
+* As a new visitor, I want to be able to:
+
+1. Understand the purpose of the program.
+2. Get feedback at all times.
+3. Navigate easily through the program.

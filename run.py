@@ -85,7 +85,7 @@ print(Fore.WHITE +
 
 while True:
     try:
-        username = input(Fore.GREEN + "Enter your name: ")
+        username = input(Fore.GREEN + "Enter your name:\n ")
 
         if not username:
             raise ValueError(Fore.RED + "Name cannot be empty")
@@ -142,12 +142,12 @@ while repeat:
     print("5. Exit program")
 
     # Get user choice
-    choice = input(Fore.GREEN + "Enter your choice: ")
+    choice = input(Fore.GREEN + "Enter your choice:\n ")
     if choice == "1":
         while True:
             try:
                 birth_day = int(input(Fore.GREEN +
-                                      ("What day were you born? (1-31): ")))
+                                      ("What day were you born? (1-31):\n ")))
 
             except ValueError:
                 print(Fore.RED + "Invalid input. Please enter a number")
@@ -161,7 +161,7 @@ while repeat:
 
         while True:
             birth_month = input(Fore.GREEN +
-                                "What month were you born? (1-12): ")
+                                "What month were you born? (1-12):\n ")
 
             if birth_month.isdigit():
                 birth_month = int(birth_month)
@@ -186,7 +186,7 @@ while repeat:
 
         while True:
             try:
-                user_sign = input(Fore.GREEN + "What is your zodiac sign? ")
+                user_sign = input(Fore.GREEN + "What is your zodiac sign?\n ")
 
                 if user_sign not in valid_signs:
                     raise ValueError(
@@ -202,7 +202,7 @@ while repeat:
             try:
                 match_sign = input(
                     Fore.GREEN +
-                    "What sign do you want to check compatibility with? "
+                    "What sign do you want to check compatibility with?\n "
                 )
 
                 if match_sign not in valid_signs:
@@ -223,7 +223,7 @@ while repeat:
         while True:
             try:
                 sign_predictions = input(Fore.GREEN +
-                                         ("Enter sign for prediction: "))
+                                         ("Enter sign for prediction:\n "))
 
                 if sign_predictions not in valid_signs:
                     raise ValueError(
@@ -244,7 +244,7 @@ while repeat:
 
         while True:
             try:
-                user_sign = input(Fore.GREEN + "What is your zodiac sign? ")
+                user_sign = input(Fore.GREEN + "What is your zodiac sign?\n ")
 
                 if user_sign not in valid_signs:
                     raise ValueError(

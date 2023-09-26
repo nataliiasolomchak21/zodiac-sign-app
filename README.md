@@ -335,5 +335,19 @@ This project was deployed using Code Insitute's mock terminal for Heroku.
 12. At the bottom, pick your deploy type.
 13. Enable Automatic Deploys to deploy automatically on GitHub pushes, or deploy manually.
 
+### How to Fork the Github Repository
 
+1. If you want to fork the repository log in to Github or create an account.
+2. Locate to the repository for the project called 'zodiac-sign-app'.
+3. In the top right corner click on 'Fork' button. 
+4. Now you have a copy of the original repository in your Github account.
+
+### How to Clone the Github Repository
+
+1. If you want to clone the repository log in to Github or create an account.
+2. Go to the main page of the repository 'zodiac-sign-app'.
+3. Click on '<> Code' and copy the URL from HTTPS.
+4. Open Git Bash.
+5. Change your current working directory to the location where you want your clone to be made.
+6. Type 'git clone' into your terminal window, paste the URL you copied earlier and press Enter to create your local clone.
 

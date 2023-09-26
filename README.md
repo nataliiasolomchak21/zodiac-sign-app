@@ -266,5 +266,34 @@ Manual Testing results:
 
 ![Manual testing](README-images/manual-testing.png)
 
+## Bugs
+
+### Remaining Bugs
+
+1. I was getting this application error when I tried to open my program day after deploying:
+
+![Applicaton Error](README-images/application-error.png)
+
+#### Things I've tried to fix it:
+
+* I've manually deployed once again after that and now it's working.
+* Although, I still went through Build-Logs in Heroku to see what was causing the problem.
+* The only suspicious thing I've found was that there are 4 vulnerabilities (1 moderate, 1 high, 2 critical).
+* I asked Tutor Support for help and they said that there was nothing to worry about. 
+* I sent the link to my project to our facilitator Marko Tot and he said that it worked fine, so hopefully, it will work for others.
+
+![Tutor Support](README-images/tutor-support-one.png)
+![Tutor Support](README-images/tutor-support-two.png)
+![Tutor Support](README-images/tutor-support-three.png)
+
+2. If the user enters two signs for compatibility(f.e Virgo and Leo) and then enters these same signs again, the compatibility rate will be different as it is randomized between 70 and 100 or 50 and 69. I couldn't find a better way to show compatibility, so I just left it as it was. Same goes for lucky number as it is also randomised.
+
+3. For the spreadsheet, I wanted to save two user signs and their compatibility rate but I couldn't do it, so I stick with saving user name and a sign entered for predictions.
+
+4. I thought that get_zodiac_sign function was too long so I was thinking about how to make it more concise. My mentor advised me to create a dictionary and iterate through it which I've tried but it wasn't successful.
+
+
+
+
 
 

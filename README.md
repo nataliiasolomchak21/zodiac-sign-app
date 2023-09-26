@@ -231,3 +231,28 @@ For this project, I used Google Spreadsheet to store the data for the user. The 
   * Get predictions for each sign#
   * Generate lucky number
   * Save user data
+
+## Testing
+
+### Validator Testing
+
+* No errors were returned from [CI Python Linter](https://pep8ci.herokuapp.com/)
+
+   * Main python file (run)
+
+  ![CI Python Linter](README-images/run-py-validation.png)
+
+   * Signs file
+  ![CI Python Linter](README-images/signs-py-validation.png)
+
+   * Descriptions file
+  ![CI Python Linter](README-images/descriptions-py-validation.png)
+
+   * Compatibility
+  ![CI Python Linter](README-images/compatibility-py-validation.png)
+
+   * Predictions file
+  ![CI Python Linter](README-images/predictions-py-validation.png)
+
+
+

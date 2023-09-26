@@ -85,3 +85,12 @@ Example: Invalid menu option choice
 ![Errors](README-images/error-colorama.png)
 
 The colours compliment each other well and promote a positive emotional response in users.
+
+### ASCII Art
+![ASCII art](README-images/output-colorama.png)
+
+This ASCII Art was created using [Text to ASCII Art Generator](https://patorjk.com/software/taag/#p=display&h=2&f=Avatar&t=Zodiac%0ASign%20APP%20). 
+
+* Font: Big
+* Character Width: Fitted
+* Character Height: Fitted

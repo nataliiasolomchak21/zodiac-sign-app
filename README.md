@@ -182,16 +182,23 @@ This ASCII Art was created using [Text to ASCII Art Generator](https://patorjk.c
    ![Error handling for option 1](README-images/error-handling-choice-one.png)
 
    The user is required to enter numbers between 1 and 31 for the birth day and between 1 and 12 for the birth month. Entering any other values will result in an error.
-3. Choose a sign for compatibility (Option 2)
+4. Choose a sign for compatibility (Option 2)
 
    ![Error handling for option 2](README-images/error-handling-choice-two.png)
 
    The user is required to enter valid zodiac sign that starts with a capital letter. Entering any other values will result in an error.
-4. See predictions for your zodiac sign (Option 3)
+5. See predictions for your zodiac sign (Option 3)
 
    ![Error handling for option 3](README-images/error-handling-choice-three.png)
 
-   The user is required to enter valid zodiac sign that starts with a capital letter. Entering any other values will result in an err
+   The user is required to enter valid zodiac sign that starts with a capital letter. Entering any other values will result in an error.
+6. See your lucky number for today (Option 4)
+
+   ![Error handling for option 4](README-images/error-handling-choice-four.png)
+
+   The user is required to enter valid zodiac sign that starts with a capital letter. Entering any other values will result in an error.
+
+
 
 
 

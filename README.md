@@ -105,3 +105,36 @@ This ASCII Art was created using [Text to ASCII Art Generator](https://patorjk.c
   * This feature will allow user to enter their username to start a program.
   
   ![Instructions and Name Input](README-images/instructions-and-name-input-feature.png)
+
+* __Welcome Message__
+
+  * The user is greeted with the ASCII Art appearing in the terminal.
+  
+  ![Welcome Message](README-images/output-colorama.png)
+
+* __Menu__
+
+  * The menu has 5 different options, each giving the user a feedback.
+  * This feauture will allow the user to choose any of the given options in any order.
+  
+  ![Menu](README-images/menu-colorama.png)
+
+* __1. Choose your zodiac sign__
+
+  * The feature has two input fields, one for birth day and one for birth month.
+  * This feauture will allow the user to find out their zodiac sign and gives them a little description about it.
+  
+  ![Choose your zodiac sign](README-images/choose-your-zodiac-sign-feature.png)
+
+* __2. Choose a sign for compatibility__
+
+  * The feature has two input fields, one for user sign and one for the sign the user wants to check compatibility with.
+  * This feauture will allow the user to find out how compatible or not they are with other zodiac signs.
+  * There are three types of output for the user: "very compatible", "slightly compatible" or "not compatible". 
+  * The percentage rate goes from 70 to 100% for high compatibility and from 50 to 69% for average compatibility.
+  
+  ![Choose a sign for compatibility](README-images/compatibility-two-feature.png)
+  ![Choose a sign for compatibility](README-images/compatibility-three-feature.png)
+  ![Choose a sign for compatibility](README-images/compatibilty-feature.png)
+
+  

@@ -55,7 +55,7 @@ def show_prediction(sign_predictions):
 
 def update_zodiac_worksheet(data):
     """
-    Updata zodiac worksheet, add new row with the data provided
+    Updates zodiac worksheet, add new row with the data provided
     """
     zodiac_worksheet = SHEET.worksheet("zodiac")
     row = [username, sign_predictions]

@@ -292,7 +292,9 @@ Manual Testing results:
 
 4. I thought that get_zodiac_sign function was too long so I was thinking about how to make it more concise. My mentor advised me to create a dictionary and iterate through it which I've tried but it wasn't successful.
 
+### Solved Bugs
 
+* When I was creating error handling for username input, everytime I pressed space key, it was showing "Name must start with a capital letter" instead of "Name cannot contain spaces". I fixed that by moving space error handling before capital letter error handling.
 
 
 

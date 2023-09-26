@@ -214,5 +214,20 @@ For this project, I used Google Spreadsheet to store the data for the user. The 
 
 ![Zodiac Sign App Spreadsheet](README-images/spreadsheet.png)
 
-### Code to conncet to Google Spreadsheet
+### Code to connect to Google Spreadsheet
 ![Zodiac Sign App Spreadsheet Code](README-images/spreadsheet-code.png)
+
+## Data Model
+
+* The main entities are User and Zodiac Sign
+* User has a name, birth day and birth month
+* Zodiac Sign has name, description, compatibility rate, predictions and lucky number
+* Compatibility, predictions and descriptions are stored in dictionaries
+* User name and sign entered for predictions are stored in Google Spreadsheet
+* Main operations:
+
+  * Lookup user's sign
+  * Get compatibility between different signs
+  * Get predictions for each sign#
+  * Generate lucky number
+  * Save user data

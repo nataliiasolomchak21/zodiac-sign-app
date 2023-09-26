@@ -309,7 +309,7 @@ Manual Testing results:
 * [Random](https://docs.python.org/3/library/random.html?highlight=random#module-random) - retuns a random number and was used to show compatibility rate between zodiac signs as well as to generate a lucky number
 * [Pyfiglet](https://pypi.org/project/pyfiglet/#:~:text=pyfiglet%20is%20a%20full%20port,the%20'block'%20font) - was used for ASCII art
 * [Colorama](https://pypi.org/project/colorama/) - makes lines in a terminal appear in different colours
-* [Datetime]() - returns today's full date and was used to show today's lucky number for user's zodiac sign
+* [Datetime](https://docs.python.org/3/library/datetime.html) - returns today's full date and was used to show today's lucky number for user's zodiac sign
 * [google.oauth2.service_account](https://google-auth.readthedocs.io/en/stable/index.html) - is the Google authentication library for Python and was used to validate credentials and give access to Google service accounts
 * [Heroku](http://www.heroku.com/) - was used to deploy the project
 * [Github](https://github.com/) - was used to store the code

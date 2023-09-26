@@ -296,6 +296,26 @@ Manual Testing results:
 
 * When I was creating error handling for username input, everytime I pressed space key, it was showing "Name must start with a capital letter" instead of "Name cannot contain spaces". I fixed that by moving space error handling before capital letter error handling.
 
+## Technologies Used
+
+### Languages
+
+* Python
+
+### Additional
+
+* [Gspread](https://pypi.org/project/gspread/) - is a Python API for Google Spreadsheet and was used to save user data in a "zodiac-sign-app" spreadsheet.
+* [Time](https://docs.python.org/3/library/time.html) - defines time sleep and was used for style function.
+* [Random](https://docs.python.org/3/library/random.html?highlight=random#module-random) - retuns a random number and was used to show compatibility rate between zodiac signs as well as to generate a lucky number.
+* [Pyfiglet](https://pypi.org/project/pyfiglet/#:~:text=pyfiglet%20is%20a%20full%20port,the%20'block'%20font) - was used for ASCII art.
+* [Colorama](https://pypi.org/project/colorama/) - makes lines in a terminal appear in different colours.
+* [Datetime]() - returns today's full date and was used to show today's lucky number for user's zodiac sign.
+* [google.oauth2.service_account](https://google-auth.readthedocs.io/en/stable/index.html) - is the Google authentication library for Python and was used to validate credentials and give access to Google service accounts
+* [Heroku](http://www.heroku.com/) - was used to deploy the project
+* [Github](https://github.com/) - was used to store the code
+* [draw.io](https://app.diagrams.net/) - was used to create a flowchart
+
+
 
 
 

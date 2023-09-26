@@ -315,7 +315,25 @@ Manual Testing results:
 * [Github](https://github.com/) - was used to store the code
 * [draw.io](https://app.diagrams.net/) - was used to create a flowchart
 
+## Deployment
 
+This project was deployed using Code Insitute's mock terminal for Heroku.
+
+### Heroku
+
+1. Go to Heroku and create a profile if you don't have one.
+2. Click New in the upper right corner and choose "Create New App" from the menu.
+3. Enter a unique application name and pick your region (Europe), then click Create App.
+4. Navigate to the Settings tab and scroll down to Config Vars.
+5. Click Reveal Config Vars, then add "PORT" to Key and "8000" to Value. Click Add.
+6. Then, also add "CREDS" to Key and your credentials to Value if you used them.
+7. Under Buildpacks, click Add Buildpack, select Python, and click to save it.
+8. Repeat to add Node.js in the proper order.
+9. Go back up and select the Deploy tab.
+10. Choose GitHub as the deployment method and authorize the connection.
+11. Search for your repo and connect it.
+12. At the bottom, pick your deploy type.
+13. Enable Automatic Deploys to deploy automatically on GitHub pushes, or deploy manually.
 
 
 

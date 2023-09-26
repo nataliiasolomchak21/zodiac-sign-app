@@ -202,7 +202,10 @@ This program offers a flexible user experience, adapting based on the user's kno
 
 If the user is unsure of their zodiac sign, they will be prompted to enter their birth date. The program will then determine and reveal their sign. However, if the user already knows their sign, they can simply enter it upfront to immediately receive customized feedback.
 
+### Future Features
 
-
+* Birth chart generator - Create more detailed astrological birth charts based on user input.
+* Numerology calculator - Calculate numerology numbers and meanings based on birthday.
+* Retrograde tracker - Track current and upcoming retrograde planets and their effects.
 
   

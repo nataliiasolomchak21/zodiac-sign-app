@@ -177,5 +177,10 @@ This ASCII Art was created using [Text to ASCII Art Generator](https://patorjk.c
    ![Error handling for menu choice](README-images/error-handling-menu-choice.png)
 
    The user is required to enter numbers between 1 and 5 to choose an option from the menu. Entering any other values will result in an error.
+3. Choose your zodiac sign (Option 1)
+
+   ![Error handling for option1 ](README-images/error-handling-choice-one.png)
+
+   The user is required to enter numbers between 1 and 31 for the birth day and between 1 and 12 for the birth month. Entering any other values will result in an error.
 
   

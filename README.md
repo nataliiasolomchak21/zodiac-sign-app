@@ -351,3 +351,16 @@ This project was deployed using Code Insitute's mock terminal for Heroku.
 5. Change your current working directory to the location where you want your clone to be made.
 6. Type 'git clone' into your terminal window, paste the URL you copied earlier and press Enter to create your local clone.
 
+## Credits
+
+### Content
+
+* [Text to ASCII Art Generator](https://patorjk.com/software/taag/#p=display&h=2&f=Avatar&t=Zodiac%0ASign%20APP%20) - was used to create ASCII Art for the project
+* [Hindustan Times](https://www.hindustantimes.com/astrology/horoscope/sagittarius-daily-horoscope-today-september-18-2023-predicts-good-opportunities-101694940533489.html) - was used for predictions content
+
+### Code
+
+* Code to connect Google Spreadsheet was taking from [Code Institute's Love Sandwiches Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LS101+2021_T1/courseware/293ee9d8ff3542d3b877137ed81b9a5b/071036790a5642f9a6f004f9888b6a45/)
+* Code for style function was created by me and my groupmate Gbemi Akadiri
+* The rest of the code was written by me
+

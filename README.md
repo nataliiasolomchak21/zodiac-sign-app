@@ -198,7 +198,9 @@ This ASCII Art was created using [Text to ASCII Art Generator](https://patorjk.c
 
    The user is required to enter valid zodiac sign that starts with a capital letter. Entering any other values will result in an error.
 
+This program offers a flexible user experience, adapting based on the user's knowledge. The user is not forced to navigate through irrelevant menu options. Instead, the flow adjusts to provide a tailored interaction:
 
+If the user is unsure of their zodiac sign, they will be prompted to enter their birth date. The program will then determine and reveal their sign. However, if the user already knows their sign, they can simply enter it upfront to immediately receive customized feedback.
 
 
 

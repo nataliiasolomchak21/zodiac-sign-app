@@ -165,5 +165,17 @@ This ASCII Art was created using [Text to ASCII Art Generator](https://patorjk.c
 
    ![Exit program](README-images/exit-feature.png)
 
+### Error Handling
+
+1. Username input
+
+   ![Error handling for username input](README-images/error-handling-username-input.png)
+
+   The user is required to enter their username with letters only, starting with capital letter. Entering any other values will result in an error.
+2. Menu choice
+
+   ![Error handling for menu choice](README-images/error-handling-menu-choice.png)
+
+   The user is required to enter numbers between 1 and 5 to choose an option from the menu. Entering any other values will result in an error.
 
   

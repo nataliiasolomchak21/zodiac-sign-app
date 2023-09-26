@@ -179,9 +179,21 @@ This ASCII Art was created using [Text to ASCII Art Generator](https://patorjk.c
    The user is required to enter numbers between 1 and 5 to choose an option from the menu. Entering any other values will result in an error.
 3. Choose your zodiac sign (Option 1)
 
-   ![Error handling for option1 ](README-images/error-handling-choice-one.png)
+   ![Error handling for option 1](README-images/error-handling-choice-one.png)
 
    The user is required to enter numbers between 1 and 31 for the birth day and between 1 and 12 for the birth month. Entering any other values will result in an error.
+3. Choose a sign for compatibility (Option 2)
+
+   ![Error handling for option 2](README-images/error-handling-choice-two.png)
+
+   The user is required to enter valid zodiac sign that starts with a capital letter. Entering any other values will result in an error.
+4. See predictions for your zodiac sign (Option 3)
+
+   ![Error handling for option 3](README-images/error-handling-choice-three.png)
+
+   The user is required to enter valid zodiac sign that starts with a capital letter. Entering any other values will result in an err
+
+
 
 
   

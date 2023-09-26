@@ -54,7 +54,7 @@ Example: Instructions before username input
 
 * Input
 
-User input have green colour throughout the program. 
+Inputs have green colour throughout the program. 
 
 Example: Enter your name input
 
@@ -115,14 +115,14 @@ This ASCII Art was created using [Text to ASCII Art Generator](https://patorjk.c
 * __Menu__
 
   * The menu has 5 different options, each giving the user a feedback.
-  * This feauture will allow the user to choose any of the given options in any order.
+  * This feature will allow the user to choose any of the given options in any order.
   
    ![Menu](README-images/menu-colorama.png)
 
 * __1. Choose your zodiac sign__
 
   * The feature has two input fields, one for birth day and one for birth month.
-  * This feauture will allow the user to find out their zodiac sign and gives them a little description about it.
+  * This feature will allow the user to find out their zodiac sign and gives them a little description about it.
   
    ![Choose your zodiac sign](README-images/choose-your-zodiac-sign-feature.png)
 
@@ -186,7 +186,7 @@ This ASCII Art was created using [Text to ASCII Art Generator](https://patorjk.c
 
    ![Error handling for option 2](README-images/error-handling-choice-two.png)
 
-   The user is required to enter valid zodiac sign that starts with a capital letter. Entering any other values will result in an error.
+   The user is required to enter valid zodiac signs that start with a capital letter. Entering any other values will result in an error.
 5. See predictions for your zodiac sign (Option 3)
 
    ![Error handling for option 3](README-images/error-handling-choice-three.png)
@@ -210,7 +210,7 @@ If the user is unsure of their zodiac sign, they will be prompted to enter their
 
 ## Storage Data
 
-For this project, I used Google Spreadsheet to store the data for the user. The username and user sign once entered for predictions are stored in a "zodiac-sign-app" spreadsheet. To achieve this, I used Google Drive and Google Spreadsheet API. When I was deploying my project, I added CREDS to the Config Vars. The creds.json file with a sensitive information is .gitignore to make sure that my credentials are not pushed to the repository.
+For this project, I used Google Spreadsheet to store the user data. The username and user sign once entered for predictions are stored in a "zodiac-sign-app" spreadsheet. To achieve this, I used Google Drive and Google Spreadsheet APIs. When I was deploying my project, I added CREDS to the Config Vars. The creds.json file with a sensitive information is stored in .gitignore file to make sure that my credentials are not pushed to the repository.
 
 ![Zodiac Sign App Spreadsheet](README-images/spreadsheet.png)
 
@@ -228,7 +228,7 @@ For this project, I used Google Spreadsheet to store the data for the user. The 
 
   * Lookup user's sign
   * Get compatibility between different signs
-  * Get predictions for each sign#
+  * Get predictions for each sign
   * Generate lucky number
   * Save user data
 
@@ -286,7 +286,7 @@ Manual Testing results:
 ![Tutor Support](README-images/tutor-support-two.png)
 ![Tutor Support](README-images/tutor-support-three.png)
 
-2. If the user enters two signs for compatibility(f.e Virgo and Leo) and then enters these same signs again, the compatibility rate will be different as it is randomized between 70 and 100 or 50 and 69. I couldn't find a better way to show compatibility, so I just left it as it was. Same goes for lucky number as it is also randomised.
+2. If the user enters two signs for compatibility(f.e Virgo and Leo) and then enters these same signs again, the compatibility rate will be different as it is randomized between 70 and 100 or 50 and 69. I couldn't find a better way to show compatibility rate, so I just left it as it was. Same goes for lucky number as it is also randomised.
 
 3. For the spreadsheet, I wanted to save two user signs and their compatibility rate but I couldn't do it, so I stick with saving user name and a sign entered for predictions.
 
@@ -304,12 +304,12 @@ Manual Testing results:
 
 ### Additional
 
-* [Gspread](https://pypi.org/project/gspread/) - is a Python API for Google Spreadsheet and was used to save user data in a "zodiac-sign-app" spreadsheet.
-* [Time](https://docs.python.org/3/library/time.html) - defines time sleep and was used for style function.
-* [Random](https://docs.python.org/3/library/random.html?highlight=random#module-random) - retuns a random number and was used to show compatibility rate between zodiac signs as well as to generate a lucky number.
-* [Pyfiglet](https://pypi.org/project/pyfiglet/#:~:text=pyfiglet%20is%20a%20full%20port,the%20'block'%20font) - was used for ASCII art.
-* [Colorama](https://pypi.org/project/colorama/) - makes lines in a terminal appear in different colours.
-* [Datetime]() - returns today's full date and was used to show today's lucky number for user's zodiac sign.
+* [Gspread](https://pypi.org/project/gspread/) - is a Python API for Google Spreadsheet and was used to save user data in a "zodiac-sign-app" spreadsheet
+* [Time](https://docs.python.org/3/library/time.html) - defines time sleep and was used for a style function
+* [Random](https://docs.python.org/3/library/random.html?highlight=random#module-random) - retuns a random number and was used to show compatibility rate between zodiac signs as well as to generate a lucky number
+* [Pyfiglet](https://pypi.org/project/pyfiglet/#:~:text=pyfiglet%20is%20a%20full%20port,the%20'block'%20font) - was used for ASCII art
+* [Colorama](https://pypi.org/project/colorama/) - makes lines in a terminal appear in different colours
+* [Datetime]() - returns today's full date and was used to show today's lucky number for user's zodiac sign
 * [google.oauth2.service_account](https://google-auth.readthedocs.io/en/stable/index.html) - is the Google authentication library for Python and was used to validate credentials and give access to Google service accounts
 * [Heroku](http://www.heroku.com/) - was used to deploy the project
 * [Github](https://github.com/) - was used to store the code
@@ -360,8 +360,8 @@ This project was deployed using Code Insitute's mock terminal for Heroku.
 
 ### Code
 
-* Code to connect Google Spreadsheet was taking from [Code Institute's Love Sandwiches Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LS101+2021_T1/courseware/293ee9d8ff3542d3b877137ed81b9a5b/071036790a5642f9a6f004f9888b6a45/)
-* Code for style function was created by me and my groupmate Gbemi Akadiri
+* Code to connect Google Spreadsheet was taken from [Code Institute's Love Sandwiches Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LS101+2021_T1/courseware/293ee9d8ff3542d3b877137ed81b9a5b/071036790a5642f9a6f004f9888b6a45/)
+* Code for the style function was created by me and my groupmate Gbemi Akadiri
 * The rest of the code was written by me
 
 ## Acknowledgements

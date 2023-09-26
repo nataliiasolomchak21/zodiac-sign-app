@@ -254,5 +254,17 @@ For this project, I used Google Spreadsheet to store the data for the user. The 
    * Predictions file
   ![CI Python Linter](README-images/predictions-py-validation.png)
 
+### Manual Testing
+
+I have manually tested this program in:
+
+* VSCode terminal
+* Codeanywhere terminal
+* Code Institute Heroku terminal
+
+Manual Testing results: 
+
+![Manual testing](README-images/manual-testing.png)
+
 
 

@@ -364,3 +364,6 @@ This project was deployed using Code Insitute's mock terminal for Heroku.
 * Code for style function was created by me and my groupmate Gbemi Akadiri
 * The rest of the code was written by me
 
+## Acknowledgements
+
+I would like to thank my mentor Dick Vlaanderen for his help and valuable feedback throughout the whole project. I would also like to thank our facilitator Marko Tot for helping me with the material and giving practical advices. 

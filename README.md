@@ -208,4 +208,11 @@ If the user is unsure of their zodiac sign, they will be prompted to enter their
 * Numerology calculator - Calculate numerology numbers and meanings based on birthday.
 * Retrograde tracker - Track current and upcoming retrograde planets and their effects.
 
-  
+## Storage Data
+
+For this project, I used Google Spreadsheet to store the data for the user. The username and user sign once entered for predictions are stored in a "zodiac-sign-app" spreadsheet. To achieve this, I used Google Drive and Google Spreadsheet API. When I was deploying my project, I added CREDS to the Config Vars. The creds.json file with a sensitive information is .gitignore to make sure that my credentials are not pushed to the repository.
+
+![Zodiac Sign App Spreadsheet](README-images/spreadsheet.png)
+
+### Code to conncet to Google Spreadsheet
+![Zodiac Sign App Spreadsheet Code](README-images/spreadsheet-code.png)

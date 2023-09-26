@@ -94,3 +94,14 @@ This ASCII Art was created using [Text to ASCII Art Generator](https://patorjk.c
 * Font: Big
 * Character Width: Fitted
 * Character Height: Fitted
+
+## Features
+
+### Existing Features
+
+* __Instructions and Name Input__
+
+  * The user is met with instructions before entering their username.
+  * This feature will allow user to enter their username to start a program.
+  
+  ![Instructions and Name Input](README-images/instructions-and-name-input-feature.png)
